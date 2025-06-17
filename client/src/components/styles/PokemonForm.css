@@ -1,0 +1,79 @@
+.add-form-box {
+  border: 2px dashed #f94eb5;
+  background-color: #fff0f9;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-form-box h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.add-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.add-form-box input[type="text"],
+.add-form-box input[type="number"],
+.add-form-box select {
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.ability-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ability-inputs input {
+  width: 120px;
+}
+
+.add-btn {
+  background-color: #f94eb5;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-form-box button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-form-box button:hover {
+  opacity: 0.9;
+}
+
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview img {
+  max-width: 200px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,81 @@
+.pokemon-box {
+  border: 2px dashed #f94eb5;
+  padding: 25px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #fff0f9;
+  text-align: center;
+}
+
+.pokemon-box img {
+  width: 150px;
+  margin: 20px 0;
+  border: 3px solid #eee;
+  border-radius: 12px;
+}
+
+.pokemon-box ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.pokemon-box li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.dots {
+  color: #f94eb5;
+  font-size: 2rem;
+  letter-spacing: 10px;
+  animation: blink 1s infinite ease-in-out;
+}
+
+.delete-btn {
+  background-color: #f94eb5;
+  color: white;
+  padding: 10px 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d13bb0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.delete-btn,
+.update-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #f94eb5;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #d13bb0;
+}
+
+.update-btn {
+  background-color: #444;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #222;
+}
